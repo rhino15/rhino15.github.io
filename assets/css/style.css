@@ -60,6 +60,8 @@ body {
 .jumbotron img {
 	width: 270px;
 	margin-right: 40px;
+  margin-top: 20px;
+  height: 100px;
 }
 
 .jumbotron p {
