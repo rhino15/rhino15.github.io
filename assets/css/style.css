@@ -58,7 +58,7 @@ body {
 }
 
 .jumbotron img {
-	width: 200px;
+	width: 270px;
 	margin-right: 40px;
 }
 
@@ -72,10 +72,6 @@ body {
 
 .jumbotron>hr {
   border-top-color: #FFD950;
-}
-
-.jumbotron img {
-  width: 270px;
 }
 
 footer p {
