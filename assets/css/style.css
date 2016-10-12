@@ -22,7 +22,9 @@
 .header {
   color: #DB5B58;
   font-size: 50px;
+  font-weight: bold;
   font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 2px 4px #EF9D9B;
 }
 
 #profileImg {
