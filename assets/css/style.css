@@ -5,9 +5,8 @@
 
 
 #landing {
-  height: 60vh;
   width: 100%;
-  /*height: 640px;*/
+  height: 700px;
   background: #02F58E; /*for browsers that don't support gradients*/
   background: -webkit-linear-gradient(#02F58E, #41F4E1);
   background: -o-linear-gradient(#02F58E, #41F4E1);
@@ -32,7 +31,7 @@
 
 #about {
   width: 100%;
-  height: 60vh;
+  height: 700px;
   background: #3DEBF4;
 }
 
@@ -42,13 +41,13 @@ iframe {
 
 #portfolio {
   width: 100%;
-  height: 60vh;
+  height: 700px;
   background: #57F4CA;
 }
 
 #skills {
   width: 100%;
-  height: 60vh;
+  height: 700px;
   background: #02F58E;
 }
 
