@@ -5,8 +5,9 @@
 
 
 #landing {
+  height: 100vh;
   width: 100%;
-  height: 640px;
+  /*height: 640px;*/
   background: #02F58E; /*for browsers that don't support gradients*/
   background: -webkit-linear-gradient(#02F58E, #41F4E1);
   background: -o-linear-gradient(#02F58E, #41F4E1);
