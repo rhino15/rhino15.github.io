@@ -66,20 +66,23 @@ iframe {
   background: #0D74FF;
 }
 
-
 #pageLinks {
   margin-top: 20px;
 }
+
 #pageLinks li {
   color: #0D74FF;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
   text-shadow: 2px 2px 4px #EF9D9B;
+}
 
+#pageLinks li a {
+  font-size: large;
 }
 
 #pageLinks li a:hover {
-  opacity: 0.2;
+  opacity: 0.5;
 }
 
 p {
@@ -87,6 +90,12 @@ p {
   font-size: 20px;
   color: #DB5B58;
   font-family: 'Open Sans', sans-serif;
+}
+
+#contact {
+  width: 100%;
+  height: 640px;
+  background: #38D8FF;
 }
 
 .ch-grid {
@@ -257,4 +266,45 @@ p {
 
 .ch-item:hover .ch-info p {
   opacity: 1;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
 }
