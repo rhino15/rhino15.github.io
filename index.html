@@ -1,44 +1,168 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="css/hover.css" rel="stylesheet" media="all">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<title>Home</title>
 	</head>
-	<body>
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<a id='myPortfolio'class="navbar-brand" href="index.html">myPortfolio</a>
-				</div>
-				<div id="navbar-collapse">
-					<ul id="ulList" class="nav navbar-nav navbar-right">
-						<li><a href="index.html">Home</a></li>
-						<li><a target="_blank" href="about.html">About</a></li>
-						<li><a target="_blank" href="portfolio.html">Portfolio</a></li>
-						<li><a target="_blank" href="https://www.github.com/rhino15">
-							<img class='icon' src="assets/images/github_small.png" alt="github icon">
-						</a></li>
-						<li><a target= "_blank" href="https://www.linkedin.com/in/roy-hinojosa-41a06159">
-							<img id='linked' class='icon' src="assets/images/linkedin.png" alt="github icon">
-						</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<section class="container">
+	<body data-spy='scroll' data-target='.navbar' data-offset='50'>
+		<section class='container' id='landing'>
 			<div class='row'>
-				<div class='col-md-8 col-md-offset-2 helloBox'>
-					<h1 class='text-center hello'>Hello. I'm Roy, an aspiring full-stack developer.</h1>
-					<ul class='list-inline text-center'>
+				<div class='col-md-6 col-md-offset-3' id='content'>
+					<h1 class='header'>Hey there, World!</h1>
+					<p>My name is Roy Hinojosa, and I'm a full stack developer based in Austin, TX. Being a recent graduate of the Coding Bootcamp at UT Austin, I have intensified my abstract thinking and problem solving skills to develop apps that have an impact in the world using these skills:</p>
+					<ul id='skillList' class='list-inline text-center'>
+						<li><p>JavaScript</p></li>
 						<li><p>HTML5</p></li>
 						<li><p>CSS3</p></li>
-						<li><p>Javascript</p></li>
-						<li><p>MongoDB</p></li>
-						<li><p>Express</p></li>
-						<li><p>React</p></li>
 						<li><p>Node.js</p></li>
+						<li><p>Express</p></li>
+						<li><p>MongoDB</p></li>
+						<li><p>React</p></li>
 					</ul>
+					<p>I would love to explore any opportunity to develop my skills, and to solve problems for the greater good.  Using code to help solve problems to make the world a better place is something I feel is necessary.</p>
+					<img id='profileImg' src="./assets/images/profilePic.jpg" class="img-circle" alt="Cinque Terre" width="150" height="150">
+				</div>
+			</div>
+			<nav class="navbar">
+				<div class="container-fluid">
+					<div class="navbar-header text-center">
+						<ul id='pageLinks' class='nav nav-justified'>
+							<li><a href="#landing">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#skills">Skills</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</section>
+		<section class='container' id='about'>
+			<div class='row'>
+				<div class='col-md-12'>
+					<h1 class='header text-center'>National Skee-ball Champion</h1>
+					<br>
+					<div class='text-center'>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/_WvkqdTa9h0" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<br>
+					<p class='text-center'>Not only do I find enjoyment in coding with new technologies, but I'm the current National Skee-Ball Champion. This past year in June, I hopped aboard the USS North Carolina in Wilmington, NC and competed against the 64 best rollers around the country. It was one of my finest accomplishments, and I'm very proud of it. I strive to be the best, and I work really hard when I love to do something. I try to put that tenacity into my coding.</p>
+				</div>
+			</div>
+		</section>
+		<section class='container' id='portfolio'>
+			<div class='row'>
+				<div class='col-md-12'>
+					<h1 class='header text-center'>My Portfolio</h1>
+				</div>
+			</div>
+			<div class='row text-center'>
+				<div class='col-md-12'>
+					<ul class="ch-grid">
+						<li>
+							<div class="ch-item ch-img-1">
+								<div class="ch-info">
+									<h3>A Beer Finding Application</h3>
+									<p>Roy Hinojosa, Bill Kernan, Fatma Tarlaci <a href="https://beer-away.herokuapp.com/">Texas Beer Away</a></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ch-item ch-img-2">
+								<div class="ch-info">
+									<h3>A WhiteBoard Application</h3>
+									<p>R.Hinojosa, M.White, J.Bazan, J.Walker <a href="https://secret-crag-98664.herokuapp.com/">Mark.</a></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ch-item ch-img-3">
+								<div class="ch-info">
+									<h3>WhiteBoard Part II</h3>
+									<p>R.Hinojosa, M.White, J.Bazan, J.Walker <a href="https://mysterious-bayou-96189.herokuapp.com/">Mark II</a></p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class='row text-center'>
+				<div class='col-md-12'>
+					<ul class="ch-grid">
+						<li>
+							<div class="ch-item ch-img-4">
+								<div class="ch-info">
+									<h3>CRUD SQL App</h3>
+									<p>Roy Hinojosa <a href="https://lit-garden-97926.herokuapp.com/burgers">Bob's Burger Menu</a></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ch-item ch-img-5">
+								<div class="ch-info">
+									<h3>Web Scraper using MongoDB</h3>
+									<p>R.Hinojosa <a href="https://stormy-wildwood-32737.herokuapp.com/">Rudimentary Scraper</a></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ch-item ch-img-6">
+								<div class="ch-info">
+									<h3>SQL WOO!</h3>
+									<p>R.Hinojosa<a href="https://github.com/rhino15/Bamazon">Bamazon</a></p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+		</section>
+		<section class='container' id='skills'>
+			<div class='row'>
+				<div class='col-md-12'>
+					<h1 class='header text-center'>Skills</h1>
+					<h2 class='mySkills'>JavaScript</h2>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+							<span class="sr-only">90% Complete</span>
+						</div>
+					</div>
+					<h2 class='mySkills'>HTML5</h2>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+							<span class="sr-only">90% Complete</span>
+						</div>
+					</div>
+					<h2 class='mySkills'>CSS3</h2>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+							<span class="sr-only">90% Complete</span>
+						</div>
+					</div>
+					<h2 class='mySkills'>Node.js</h2>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+							<span class="sr-only">90% Complete</span>
+						</div>
+					</div>
+					<h2 class='mySkills'>MongoDB</h2>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
+					<h2 class='mySkills'>React</h2>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+							<span class="sr-only">20% Complete</span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
