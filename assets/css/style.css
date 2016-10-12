@@ -5,7 +5,7 @@
 
 
 #landing {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   /*height: 640px;*/
   background: #02F58E; /*for browsers that don't support gradients*/
@@ -32,7 +32,7 @@
 
 #about {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background: #3DEBF4;
 }
 
@@ -48,7 +48,7 @@ iframe {
 
 #skills {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background: #02F58E;
 }
 
