@@ -199,6 +199,15 @@ p {
 .ch-img-6 { 
   background-image: url(../images/bamazon.PNG);
 }
+.ch-img-7 { 
+  background-image: url(../images/github.PNG);
+}
+.ch-img-8 { 
+  background-image: url(../images/linked3.PNG);
+}
+.ch-img-9 { 
+  background-image: url(../images/twitter2.PNG);
+}
 
 .ch-info {
   position: absolute;
